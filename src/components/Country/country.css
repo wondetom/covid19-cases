@@ -1,0 +1,49 @@
+.country{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #141E30;
+    background: -webkit-linear-gradient(to right, #243855,#141E30);
+    background: linear-gradient(to right, #243855,#141E30);
+
+    border-radius: 10px;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.country:hover{
+    transform: scale(1.1);
+}
+
+.country > img{
+    width:33%;
+    height: auto;
+}
+
+.country > h2{
+    margin:5px 0;
+}
+
+.describe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 1rem;
+    justify-items: center;
+    width: 95%;
+}
+.describe > p{
+    font-size: 10pt;
+}
+.describe > p > span{
+    font-style: italic;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.describe > p > b{
+    font-style: normal;
+    color: rgb(29, 7, 18);
+    text-decoration: underline;
+}
